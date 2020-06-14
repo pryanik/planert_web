@@ -10159,6 +10159,8 @@ header.masthead .masthead-heading {
   line-height: 3.25rem;
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background: rgb(128, 128, 128); /* Fallback for older browsers without RGBA-support */
+  background: rgba(128, 128, 128, 0.5);
 }
 
 @media (min-width: 768px) {
@@ -10171,12 +10173,16 @@ header.masthead .masthead-heading {
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
+    background: rgb(128, 128, 128); /* Fallback for older browsers without RGBA-support */
+    background: rgba(128, 128, 128, 0.5);
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+    background: rgb(128, 128, 128); /* Fallback for older browsers without RGBA-support */
+    background: rgba(128, 128, 128, 0.5);
   }
 }
 #how-it-works .how-it-works-item {
